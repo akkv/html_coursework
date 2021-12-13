@@ -1,0 +1,28 @@
+/* media */
+.join {
+    padding: 0 20px;
+}
+.join__form {
+    text-align: center;
+}
+.form__name,
+.form__email,
+.form__phone,
+.form__link {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form__check {
+    margin-bottom: 20px;
+    display: block;
+}
+@media (min-width: 575.98px) {
+    .join {
+        padding: 0 calc(50vw - 270px);
+    }
+}
+@media (min-width: 767.98px) {
+    .join {
+        padding: 0 calc(50vw - 300px);
+    }
+}

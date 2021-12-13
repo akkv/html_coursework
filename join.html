@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="/css/flex-grid.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/join.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://kit.fontawesome.com/a8bd04fbbf.js" crossorigin="anonymous"></script>
+        <title>DigitalSchool</title>
+    </head>
+    <body class="page">
+        <header class="header row wrap">
+            <div class="logo header__logo col-6 col-md-4">
+                <a href="index.html">
+                    <img class="logo__img" src="/img/logo-header-1.svg" alt="SkillsUpSchool" />
+                </a>
+                <span class="logo__text">Школа рисунка и цифровой графики</span>
+            </div>
+            <div class="socials header__socials col-6 col-md-3">
+                <a href="#"><img class="socials__icon" src="/img/icon-inst.svg" alt="inst" /></a>
+                <a href="#"><img class="socials__icon" src="/img/icon-vk.svg" alt="vk" /></a>
+                <a href="#"><img class="socials__icon" src="/img/icon-fb.svg" alt="fb" /></a>
+            </div>
+            <div class="phone header__phone col-6 col-md-3">
+                <div>
+                    <a class="phone__link link" href="tel:+79009998877">СПб: +7 900 999-88-77</a>
+                    <a class="phone__link link" href="tel:+79009998877">Мск: +7 900 999-88-77</a>
+                </div>
+            </div>
+            <div class="header__menu-button col-6 col-md-2">
+                <div class="menu-button__wrap">
+                    <span class="menu-button__text">Меню</span>
+                    <i class="fas fa-bars menu-button__icon"></i>
+                </div>
+            </div>
+            <nav class="header__menu col-12 col-md-12">
+                <a class="link menu__link" href="#">Курсы</a>
+                <a class="link menu__link" href="#">Галерея</a>
+                <a class="link menu__link" href="#">Отзывы</a>
+                <a class="link menu__link" href="news.html">Новости</a>
+                <a class="link menu__link" href="#">Записаться</a>
+            </nav>
+        </header>
+        <main class="content">
+            <section class="join">
+                <div>
+                    <div>
+                        <h1>Записаться на курс</h1>
+                        <p>
+                            Пожалуйста, внимательно заполните форму справа. Мы свяжемся с вами,
+                            чтобы подтвердить заявку и обсудить организационные вопросы. Спасибо!
+                        </p>
+                    </div>
+                    <form class="join__form" action="post">
+                        <input
+                            name="name"
+                            class="form__name"
+                            type="text"
+                            placeholder="Ваши фамилия и имя *"
+                            required
+                        />
+                        <input
+                            name="email"
+                            class="form__email"
+                            type="email"
+                            placeholder="Электронная почта *"
+                            required
+                        />
+                        <input
+                            name="phone"
+                            class="form__phone"
+                            type="number"
+                            placeholder="Ваш телефон *"
+                            required
+                        />
+                        <input
+                            name="link"
+                            class="form__link"
+                            type="text"
+                            placeholder="Ссылка на портфолио"
+                        />
+                        <label class="form__check">
+                            <input type="checkbox" name="conditions" required />
+                            Я согласен с условиями обработки данных
+                        </label>
+                        <input type="submit" value="Записаться на курс" />
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer row">
+            <div class="col-3 footer__socials-wrap">
+                <img src="/img/logo-header-1.svg" alt="SkillsUpSchool" class="footer__logo" />
+                <div class="footer__socials">
+                    <a class="link footer__socials-link" href="#">
+                        <img
+                            class="socials__icon socials__icon--invert"
+                            src="/img/icon-inst.svg"
+                            alt="inst"
+                    /></a>
+                    <a class="link footer__socials-link" href="#">
+                        <img
+                            class="socials__icon socials__icon--invert"
+                            src="/img/icon-vk.svg"
+                            alt="vk"
+                    /></a>
+                    <a class="link footer__socials-link" href="#">
+                        <img
+                            class="socials__icon socials__icon--invert"
+                            src="/img/icon-fb.svg"
+                            alt="fb"
+                    /></a>
+                </div>
+            </div>
+            <div>
+                <span>Санкт-Петербург, ул. Уральская, д. 1Б</span>
+                <a class="link footer__phone" href="tel:+79009998877">+7 900 999-88-77</a>
+            </div>
+            <div>
+                <span>Москва, Шлюзовая наб., д. 8 ст 1</span>
+                <a class="link footer__phone" href="tel:+79009998877">+7 900 999-88-77</a>
+            </div>
+        </footer>
+        <script src="/js/script.js"></script>
+    </body>
+</html>
